@@ -65,17 +65,21 @@ export default {
 					percent: 81
 				},
 				{
-					name: "stylus",
-					percent: 87
-				},
-				{
-					name: "less",
-					percent: 91
-				},
-				{
-					name: "sass",
+					name: "css预处理器",
 					percent: 81
 				},
+				// {
+				// 	name: "stylus",
+				// 	percent: 87
+				// },
+				// {
+				// 	name: "less",
+				// 	percent: 91
+				// },
+				// {
+				// 	name: "sass",
+				// 	percent: 81
+				// },
 				{
 					name: "nodejs",
 					percent: 65

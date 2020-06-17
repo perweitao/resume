@@ -150,7 +150,7 @@ export default {
 		top: 47%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		background: rgba(12, 12, 21, 0.4);
+		background: rgba(110, 110, 138, 0.4);
 		border-radius: 1.6rem;
 		box-shadow: 5px 5px 5px  black;
 		padding: 0.4rem;

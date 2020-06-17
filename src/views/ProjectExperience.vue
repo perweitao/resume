@@ -26,7 +26,7 @@ export default {
 			projectList: [
 				{
 					name: "菜单系统",
-					img: require("../assets/imgs/project/5.jpg"),
+					img: require("../assets/imgs/project/52.jpg"),
 					company: "易恒健康",
 					describe:
 						"所有后台统一管理系统，现有项目整理，新项目快速开发",
@@ -105,22 +105,22 @@ export default {
 				font-size: 0.64rem;
 			}
 			.name {
-				color: rgb(14, 13, 13);
+				color: cornsilk;
 				font-size: 0.72rem;
 				font-weight: 700;
 				text-align: center;
 			}
 			.company {
-				color: rgb(14, 13, 13);
+				color: cornsilk;
 				text-align: right;
 			}
 			.describe {
-				color: rgb(14, 13, 13);
+				color: cornsilk;
 				text-indent: 1.28rem;
 				margin-top: 0.3rem;
 			}
 			.skills {
-				color: rgb(14, 13, 13);
+				color: cornsilk;
 				margin-top: 0.3rem;
 			}
 			// .persional {
@@ -133,7 +133,7 @@ export default {
 			z-index: -1;
 			img {
 				width: 100%;
-				opacity: 0.3;
+				opacity: 0.1;
 				border-radius: 0.8rem;
 				box-shadow: 5px 5px 5px  black;
 			}

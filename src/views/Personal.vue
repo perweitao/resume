@@ -16,7 +16,7 @@
 			<div class="personal_des">
 				<p>我叫曹伟涛</p>
 				<p>3年前端工作经验</p>
-				<p>在技术快速迭代的现在，只有不断汲取新知识，才能端好前端的饭碗</p>
+				<!-- <p>在技术快速迭代的现在，只有不断汲取新知识，才能端好前端的饭碗</p> -->
 				<p>978217648@qq.com</p>
 			</div>
 		</div>
@@ -117,6 +117,7 @@ export default {
 				text-align: center;
 				line-height: 1.6rem;
 				height: 1.6rem;
+				color: cornsilk;;
 			}
 		}
 	}

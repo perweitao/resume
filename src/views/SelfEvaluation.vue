@@ -25,5 +25,6 @@ export default {
 	font-size: 0.8rem;
 	text-indent: 1.6rem;
 	line-height: 1.6rem;
+	color: cornsilk;;
 }
 </style>

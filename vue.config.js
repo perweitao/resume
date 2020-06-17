@@ -5,9 +5,9 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 
-const name = 'vue Element Admin' // page title
+const name = '个人简历' // page title
 
-const port = 9527 // dev port
+// const port = 9527 // dev port
 
 module.exports = {
     publicPath: './',
