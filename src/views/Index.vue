@@ -98,66 +98,81 @@ export default {
 		templteClick(params) {
 			let _this = this;
 			_this.activeTemplate = params.key;
-			console.log(params);
+			// console.log(params);
 		}
 	}
 };
 </script>
 
-<style lang="less">
+<style lang="less"  scoped>
 .content_all {
 	height: 100vh;
 	overflow: hidden;
 	// opacity: .2;
-	background: url("../assets/imgs/background.jpg");
+	// background: url("../assets/imgs/background.jpg");
+	background: #87b0a5;
 	// z-index: -1;
 
 	.content_avatar {
-		width: 300px;
-		height: 100px;
-		margin: 10px;
-		padding: 10px;
-		border-radius: 20px;
-		background: rgba(164, 164, 255, 0.7);
+		width: 10rem;
+		height: 3.2rem;
+		margin: 0.4rem;
+		padding: 0.4rem;
+		border-radius: 0.8rem;
+		box-shadow: 10px 10px 5px  black;
+		background: rgba(162, 162, 247, 0.404);
 		display: flex;
 		align-items: center;
 		.avatar {
-			width: 80px;
-			height: 80px;
+			width: 3.2rem;
+			height: 3.2rem;
 
 			img {
 				width: 100%;
-				border-radius: 40px;
+				border-radius: 1.6rem;
 			}
 		}
 		.message {
-			padding: 10px;
+			padding: 0.4rem;
 			.name {
-				font-size: 28px;
-				margin: 16px 0;
+				font-size: 0.8rem;
+				margin: 0.4rem 0;
 			}
 			.email {
-				font-size: 20px;
+				font-size: 0.56rem;
 			}
 		}
+	}
+	.content_center{
+		width: 50vw;
+		height: 60vh;
+		position:absolute;
+		top: 47%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		background: rgba(12, 12, 21, 0.4);
+		border-radius: 1.6rem;
+		box-shadow: 5px 5px 5px  black;
+		padding: 0.4rem;
 	}
 	.content_list {
 		position: absolute;
 		top: 40%;
 		right: 1%;
 		.list_item {
-			width: 80px;
-			border: 1px solid rgb(255, 255, 255);
+			width: 3.2rem;
+			border: 0.04rem solid rgb(255, 255, 255);
 			color: rgb(236, 255, 167);
 			cursor: pointer;
 			font-weight: 700;
-			border-radius: 10px;
-			font-size: 16px;
-			height: 20px;
+			border-radius: 0.4rem;
+			box-shadow: 5px 5px 5px  black;
+			font-size: 0.64rem;
+			height: 0.8rem;
 			text-align: center;
-			line-height: 20px;
-			padding: 8px;
-			margin: 8px;
+			line-height: 0.8rem;
+			padding: 0.32rem;
+			margin: 0.32rem;
 		}
 	}
 }
